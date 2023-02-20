@@ -87,7 +87,7 @@ class _CalendarDatePicker2WithActionButtonsState
             onDisplayedMonthChanged: widget.onDisplayedMonthChanged,
           ),
         ),
-        SizedBox(height: widget.config.gapBetweenCalendarAndButtons ?? 10),
+        // SizedBox(height: widget.config.gapBetweenCalendarAndButtons ?? 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
