@@ -79,7 +79,7 @@ class _CalendarDatePicker2WithActionButtonsState
       mainAxisSize: MainAxisSize.min,
       children: [
         MediaQuery.removePadding(
-          removeBottom = true,
+          removeBottom : true,
           context: context,
           child: CalendarDatePicker2(
             initialValue: [..._editCache],
